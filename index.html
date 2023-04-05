@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/51f286cfb5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body id="body">
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light nav1">
+        <div class="container-fluid  d-flex justify-content-between">
+            <a class="navbar-brand imgg" href="#" id="default-navi-icon"><img src="images/jet.png" alt=""></a>
+
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" id="default-navi-btn"  onclick="hideMobile()">
+                <span class="navbar-toggle-icon"><i class="fa-solid fa-bars"></i></span>
+            </button>
+
+
+            <div class="mobile-navigation" id="mb-navigation">
+                <div class="mobille-head">
+                    <a class="navbar-brand imgg" href="#"><img src="images/jet.png" alt=""></a>
+                    <i class="fa-solid fa-xmark" onclick="showMobile()"></i>
+                </div>
+                <div class="contents">
+                    <span>
+                        <p>About us</p>
+                        <div class="line"></div>
+                    </span>
+                    <span>
+                        <p>Media centre</p>
+                        <div class="line"></div>
+                    </span>
+                    <span>
+                        <p>Careers</p>
+                        <div class="line"></div>
+                    </span>
+                    <span>
+                        <p>Refunds/Q&A</p>
+                        <div class="line"></div>
+                    </span>
+                    <span>
+                        <p>NCLT Proceedings</p>
+                        <div class="line"></div>
+                    </span>
+                </div>
+            </div>
+
+            <div class="collapse navbar-collapse justify-content-end ">
+                <div class="navbar-nav">
+                    <a class="nav-link text-white textNav" href="#">About us</a>
+                    <a class="nav-link text-white textNav" href="#">Media centre</a>
+                    <a class="nav-link text-white textNav" href="#">careers</a>
+                    <a class="nav-link text-white textNav" href="#">Refunds/Q&A</a>
+                    <a class="nav-link text-white textNav" href="#">NCLT Proceedings</a>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
+    <section id="hero">
+
+        <div class="landing-page">
+            <h2>
+                <img src="https://www.jetairways.com/jet-tagline-01jun22%20(2).svg" alt="">
+            </h2>
+        </div>
+
+    </section>
+
+    <main class="main" id="main">
+        <section id="skies">
+            <div class="text">
+                <div class="head">
+                    India’s most-loved airline is taking to the skies again
+                </div>
+                <p>We are creating history as we prepare to re-launch India’s most-loved airline with the promise of
+                    bringing back the warmth, understated elegance, and efficient operations that Jet Airways was
+                    synonymous with for more than 25 years. </p>
+            </div>
+            <div class="img-div">
+                <div class="image"></div>
+                <p>We are creating history as we prepare to re-launch India’s most-loved airline with the promise of
+                    bringing back the warmth, understated elegance, and efficient operations that Jet Airways was
+                    synonymous with for more than 25 years. </p>
+            </div>
+        </section>
+
+        <section id="glorious">
+            <div class="image"></div>
+            <div class="text">
+                <div class="head">
+                    The glorious past
+                </div>
+                <p>Launched in 1993, Jet Airways grew to become synonymous with premium air travel for discerning
+                    travellers in India. It eventually flew to over 65 destinations in India and across the world,
+                    including Europe, the Middle East, Southeast Asia, and North America, with hubs in Mumbai, Delhi,
+                    Bengaluru, and gateways in Amsterdam, Paris, London, and Abu Dhabi. It flew 124 narrow-body and
+                    wide-body aircraft on nearly 1000 domestic and international routes, before it suspended operations
+                    in April 2019. </p>
+                <div class="glorious-btn"><button type="button" class="btn">Know more about our story<i
+                            class="fa-solid fa-arrow-right-long"></i></button></div>
+            </div>
+        </section>
+
+        <section id="ourjourney" class="ourjourney-section d-flex justify-content-center flex-column text-center">
+            <div class="ourjourney-title">
+                Join us on our journey
+            </div>
+
+            <div class="line"></div>
+
+            <p class="blog-text text-white">
+                We are guided by values and principles, and not by some ‘rigid’ rulebook. Our people are empowered to
+                make decisions, guided by our values, principles, and common-sense. We are looking for people who
+                understand small things make a big difference, and those who follow the Golden Rule: do unto others as
+                you would have them do unto you. People who take ownership, are responsible, responsive, respectful to
+                all, fair, and courteous, and who are focused on achieving results.
+            </p>
+        </section>
+
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <p>JET AIRWAYS</p>
+                    <div class="copyrights">
+                        <a class="nav-link text-black textNav" href="#">About us</a>
+                        <a class="nav-link text-black textNav" href="#">Media centre</a>
+                        <a class="nav-link text-black textNav" href="#">careers</a>
+                        <a class="nav-link text-black textNav" href="#">Refunds/Q&A</a>
+                        <a class="nav-link text-black textNav" href="#">NCLT Proceedings</a>
+                    </div>
+                </div>
+                <div class="credits">
+                    <p>© Jet Airways (India) Ltd. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+        <a href="#" class="back-to-top" id="backtop"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+
+    </main>
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

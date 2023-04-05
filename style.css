@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav1{
+    background-color: #0f204b;
+}
+
+
+
+.imgg img{
+    width: 190px;
+}
+
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0;
+}
+
+.navbar-toggler.custom-toggler{
+    border-color: #0f204b;
+}
+
+.navbar-toggle-icon i{
+    color: white;
+}
+
+.mobile-navigation{
+    display: none;
+}
+
+.textNav{
+    font-size: 16px;
+}
+
+.textNav:hover{
+    color: #F0AB00 !important;
+}
+
+#hero{
+    background: url("https://www.jetairways.com/assets/img/landing-page/LandingPageBanner-Desktop-min.jpg") no-repeat;
+    background-position: center center;
+    height: 85vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.landing-page{
+    height: 55%;
+    display: flex;
+    align-items: end;
+}
+
+
+
+#skies{
+    display: flex;
+    gap: 50px;
+    padding: 88px 32px;
+}
+
+.text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.text .head{
+    font-size: 35px;
+    position: relative;
+    line-height: 1;
+}
+
+.img-div{
+    width: 50%;
+}
+
+.img-div p{
+    display: none;
+    font-size: 16px;
+}
+
+
+#skies .text .head::after{
+    content: '';
+    width: 75px;
+    height: 3px;
+    background-color: #F0AB00;
+    position: absolute;
+    top: 85px;
+    left: 2px;
+}
+
+.text p{
+    font-size: 16px;
+}
+
+
+.image{
+    /* width: 50%; */
+    height: 465px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#skies .image{
+    background-image: url("https://www.jetairways.com/assets/img/landing-page/Landing%20page%20-%20Desktop%201.a.jpg");
+}
+
+#glorious{
+    display: flex;
+    gap: 50px;
+    padding: 88px 32px;
+}
+
+#glorious .image{
+    background-image: url("https://www.jetairways.com/assets/img/landing-page/landing-page-b.png");
+}
+
+#glorious .text .head::after{
+    content: '';
+    width: 75px;
+    height: 3px;
+    background-color: #F0AB00;
+    position: absolute;
+    top: 50px;
+    left: 2px;
+}
+
+.glorious-btn button{
+    background-color: #0f204b;
+    color: #F0AB00;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.glorious-btn button:hover{
+    background-color: #0f204b;
+    color: #F0AB00;
+}
+
+#glorious .text{
+    gap: 30px;
+}
+
+.ourjourney-section{
+    background-color: #0f204b;
+    /* color: #F0AB00; */
+}
+
+#ourjourney{
+    padding: 50px 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.ourjourney-title{
+    color: #FECB00;
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+    line-height: 1;
+}
+
+.line{
+    width: 75px;
+    height: 3px;
+    background-color: #F0AB00;
+    top: 70px;
+    left: 47%;
+}
+
+.blog-text{
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 2;
+}
+
+#footer{
+    padding: 30px 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 32px;
+    margin: 0;
+}
+
+.copyrights{
+    display: flex;
+    gap: 30px;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.row p{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.credits{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.credits p{
+    margin: 0;
+    font-size: 14px;
+}
+
+.back-to-top{
+    position: fixed;
+    bottom: 30px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    background-color: #F0AB00;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+
+.back-to-top:hover{
+    color: white;
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+    .imgg img{
+        width: 290px;
+    }
+
+    #hero{
+        margin-top: 35px;
+        background-size: cover !important;
+        background: url("https://www.jetairways.com/assets/img/landing-page/landingPageBannermobile-min.jpg") no-repeat;
+    }
+
+    .landing-page{
+        height: 90%;
+    }
+
+    .landing-page h2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .landing-page img{
+        width: 80%;
+    }
+
+    #skies{
+        flex-direction: column;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .text .head{
+        font-size: 19px;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    #skies .text p{
+        display: none;
+    }
+
+    .img-div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .img-div p{
+        display: flex;
+        text-align: center;
+    }
+
+    .image{
+        width: 100%;
+        height: 230px;
+    }
+
+    #skies .text .head::after{
+        top: 55px;
+        left: 130px;
+    }
+
+    #glorious{
+        flex-direction: column;
+    }
+
+    #glorious .text{
+        align-items: center;
+    }
+
+    #glorious .text p{
+        text-align: center;
+    }
+
+    #glorious .text .head{
+        margin-bottom: 20px;
+    }
+
+    #glorious .text .head::after{
+       top: 40px; 
+       left: 40px;
+    }
+
+    #ourjourney{
+        padding: 40px 10px;
+    }
+
+    .container{
+        gap: 30px;
+    }
+
+    .row p{
+        text-align: center;
+    }
+
+    .copyrights{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .copyrights .textNav{
+        font-size: 14px;
+    }
+
+
+    .mobile-navigation{
+        width: 100%;
+        height: 100vh;
+    }
+
+    
+    .mobille-head{
+        display: flex;
+        align-items: start;
+    }
+    
+    .mobille-head i{
+        color: white;
+    }
+    .mobille-head img{
+        width: 330px;
+    }
+
+    .contents{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .contents span{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .contents p{
+        color: white;
+        margin: 0;
+    }
+
+    .contents .line{
+        width: 30px;
+    }
+}
